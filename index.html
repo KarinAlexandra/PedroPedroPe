@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onclick="PlayAudio()" >
+
+    <header class="header" >
+
+        <div class="menu container">
+            <a class="logo"></a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="Imagenes/menu.png" class="menu-icono" alt="">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                   <li> <a href="index.html">Inicio</a> </li>
+                   <li> <a href="Sobre Mi.html">Sobre Mi</a> </li>
+                   <li> <a href="Proyectos.html">Proyectos</a> </li>
+                   <li> <a href="Servicios.html">Servicios</a> </li>
+                   <li> <a href="Contacto.html">Contacto</a> </li>
+                </ul>
+            </nav>
+        
+        </div>
+
+        <div class="header-content container">
+            <h1>Yo Soy <br> Pedro el Mapache</h1>
+            <p>
+                Bienvenidos a mi Portafolio
+                <br>
+                <br>
+                ♪♩ per la città ♬
+                <br>
+                ♪ pedro, pedro, pedro, pedro, pedro, pe ♩
+                <br>
+                ♬ pratticamente il meglio di santa fe ♪
+                <br>
+                ♫ pedro, pedro, pedro, pedro, pedro, pe
+                fidati di me ♪♩
+            </p>     
+
+        </div>
+    </header>
+
+
+
+    <audio id="audio1" loop>
+        <source src="Audio/PedroSong.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        function PlayAudio () {
+            document.getElementById("audio1").play();
+        }
+    </script>
+
+
+
+
+
+
+    <footer class="footer"> 
+        <div class="footer-cont container">
+            <div class="link">
+                <h3>Visita Mi Perfil</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/feed/">Linkeid</a> </li>
+                </ul>
+
+            </div>
+            <div class="link">
+                <h3>Revisa mi codigo 1313</h3>
+                <ul>
+                    <li><a href="#">Git Hub</a> </li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Folow x Folow</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/racool64?igsh=ZGQ2NXdlb3JnOHZy">Instagram</a> </li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Sigueme</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=61558841483923&mibextid=ZbWKwL">Facebook</a> </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+</html>
